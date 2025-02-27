@@ -1,1 +1,1 @@
-DRF E-Commerce
+DRF E-Commerce -> Simple Project
