@@ -20,13 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-kv14^v!p24iugif+^bst44!)31^!uhows39+vs3uxkd!%&u=fr"
+SECRET_KEY = "@+73q&2r*_hgit*peom(et#1o^acbj&ld10-5oi7@0cd0-)^_e"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -68,17 +65,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "drfecommerce.wsgi.application"
-
-
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
 
 
 # Password validation
