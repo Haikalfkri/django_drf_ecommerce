@@ -7,3 +7,7 @@ drfecommerce/.env
 **__pycache__/
 db.sqlite3
 .vscode
+schema.yml
+
+.coverage
+htmlcov/
